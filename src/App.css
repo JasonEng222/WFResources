@@ -1,0 +1,58 @@
+.App {
+  /* background-color: #282c34; */
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.App-header {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-Links-Horizontal { 
+display: flex;
+flex-direction: row;
+padding: 25px;
+justify-content: space-evenly;
+
+}
+
+.App-guideTitleText {
+  color: rgb(140, 201, 105);
+}
+
+.App-link {
+  color: #61dafb;
+  text-decoration: none;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.App-link:hover {
+  text-decoration: underline;
+}
+
+.App-navbar-mini {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #146568;
+  height: 70px;
+  position: fixed;
+  width: 100%;
+}
+
+.App-verticalLinks {
+  display: flex;
+  flex-direction: column;
+  font-size: large;
+}
+
+
