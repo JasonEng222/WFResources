@@ -1,7 +1,7 @@
-
 import './App.css';
 import CSBPatch from './Components/CSBPatch'
 import CSBYozora from './Components/CSBYozora'
+import ELEGuide from './Components/ELEGuide';
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
         World Flipper Resources
       </div>
       <div className=''>
-        <h1 className="App-header">Challenge Solo Boss Guides</h1>
+        <h1 className="App-header">Solo Boss Challenge Guides</h1>
+        <h3>DISCLAIMER: They are not optimized for Coop Contents. Please do not bring them to public lobbies/bells.</h3>
         <div className="App-Links-Horizontal">
           {CSBPatch}
           {CSBYozora}
@@ -18,16 +19,11 @@ function App() {
       </div>
       <div>
         <h1 className="App-header">Elemental Team Guides</h1>
-        <h2>Fire</h2>
-        <h2>Water</h2>
-        <h2>Thunder</h2>
-        <h2>Wind</h2>
-        <h2>Light</h2>
-        <h2>Dark</h2>
+          <div className="App-Links-Horizontal">
+          {ELEGuide}
+        </div>
       </div>
     </div>
   );
 }
-
 export default App;
-  
