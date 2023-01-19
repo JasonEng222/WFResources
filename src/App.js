@@ -2,6 +2,7 @@ import './App.css';
 import CSBPatch from './Components/CSBPatch'
 import CSBYozora from './Components/CSBYozora'
 import ELEGuide from './Components/ELEGuide';
+import MISCGuides from './Components/MISCGuides';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       </div>
       <div className=''>
         <h1 className="App-header">Solo Boss Challenge Guides</h1>
-        <h3>DISCLAIMER: They are not optimized for Coop Contents. Please do not bring them to public lobbies/bells.</h3>
+        <h4>DISCLAIMER: They are not optimized for Coop Contents. Please do not bring them to public lobbies/bells.</h4>
         <div className="App-Links-Horizontal">
           {CSBPatch}
           {CSBYozora}
@@ -21,6 +22,7 @@ function App() {
         <h1 className="App-header">Elemental Team Guides</h1>
           <div className="App-Links-Horizontal">
           {ELEGuide}
+          {MISCGuides}
         </div>
       </div>
     </div>
