@@ -37,6 +37,32 @@ const MISCGuides = (
         rel="noopener noreferrer">
         Wasuku (JP)
     </a>
+    <div>-------------------------- </div>
+    <div>Abyss Beast Team Comp</div>
+    <a 
+        className="App-link"
+        style={{color: "#rgb(244, 244, 244)"}}
+        href="https://docs.google.com/document/d/e/2PACX-1vS8UFKuL_cVcIcZbJM8sbkq5cCxbV9fR2o96F5mgudIcV9EtPv9IVqfdgpF2RVbnkvP4u5ojf_6LL8U/pub"
+        target="_blank"
+        rel="noopener noreferrer">
+        Mini Guide
+    </a>
+    <a 
+        className="App-link"
+        style={{color: "#rgb(244, 244, 244)"}}
+        href="https://docs.google.com/document/d/1jtBaTCJmzPIll3INut-yLHnpm8eVrmDBn_2pmPdwlsE/edit?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer">
+        Yozoroa's Compilation
+    </a>
+    <a 
+        className="App-link"
+        style={{color: "#rgb(244, 244, 244)"}}
+        href="https://discord.com/channels/646623094269673492/865152746919690240/1028202913304154134"
+        target="_blank"
+        rel="noopener noreferrer">
+        Rerun Notes
+    </a>
   </div>
 </div>)
 

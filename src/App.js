@@ -3,6 +3,7 @@ import CSBPatch from './Components/CSBPatch'
 import CSBYozora from './Components/CSBYozora'
 import ELEGuide from './Components/ELEGuide';
 import MISCGuides from './Components/MISCGuides';
+import Teambuilding from './Components/Teambuilding';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <h1 className="App-header">Elemental Team Guides</h1>
           <div className="App-Links-Horizontal">
           {ELEGuide}
+          {Teambuilding}
           {MISCGuides}
         </div>
       </div>

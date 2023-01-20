@@ -1,9 +1,10 @@
 import "./Components.css"
 const ELEGuide = (
 <div>
+    <h1 className="App-header">Yozora's Guides</h1>
     <div className="App-verticalLinks"> 
     <div className="guide"></div>
-    <div className="X-Guide">Yozora's Guides</div>
+    <div className="X-Guide"></div>
     <a 
         className="App-link"
         style={{color: "rgba(151, 11, 11, 0.86"}}
