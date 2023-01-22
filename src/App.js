@@ -1,33 +1,22 @@
 import './App.css';
-import CSBPatch from './Components/CSBPatch'
-import CSBYozora from './Components/CSBYozora'
-import ELEGuide from './Components/ELEGuide';
-import MISCGuides from './Components/MISCGuides';
-import Teambuilding from './Components/Teambuilding';
+import React, { Component } from 'react';
+import { connect } from "react-redux"
+import './App.css';
+import { BrowserRouter, Route } from "react-router-dom";
+// import { , Link } from "react-router-dom";
+import Guides from './Guides.js';
 
-function App() {
-  return (
-    <div className="App">
-      <div className='.App-navbar-mini'>
-        World Flipper Resources
-      </div>
-      <div className=''>
-        <h1 className="App-header">Solo Boss Challenge Guides</h1>
-        <h4>DISCLAIMER: They are not optimized for Coop Contents. Please do not bring them to public lobbies/bells.</h4>
-        <div className="App-Links-Horizontal">
-          {CSBPatch}
-          {CSBYozora}
-        </div>
-      </div>
-      <div>
-        <h1 className="App-header">Elemental Team Guides</h1>
-          <div className="App-Links-Horizontal">
-          {ELEGuide}
-          {Teambuilding}
-          {MISCGuides}
-        </div>
-      </div>
-    </div>
-  );
+class UnconnectedApp extends Component {
+  render = () => {
+    return (
+        <BrowserRouter>
+          <div>
+          <Route exact={true} path="/" component={Guides}></Route>
+          </div>
+        </BrowserRouter>
+      );
+    }
 }
-export default App;
+    
+let App = connect()(UnconnectedApp)
+export default App
