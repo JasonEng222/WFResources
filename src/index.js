@@ -6,8 +6,10 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
-ReactDOM.render(
+console.log(root)
+console.log(App)
+console.log(Provider)
+root.render(
   <Provider><App/></Provider>
 )
 
