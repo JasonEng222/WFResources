@@ -10,12 +10,22 @@ import Guides from './Guides.js';
 
 const router = createBrowserRouter([
   {
+    path: "/",
+    element: <div>Homepage <Link to={`/Guides`}>Guides</Link></div>, 
+
+  },
+  {
     path: "/Guides",
     element: <Guides></Guides>
   },
   {
-    path: "/",
-    element: <div>Homepage <Link to={`/Guides`}>Guides</Link></div>, 
+    path: "/Xbianca",
+    element: <div>Xbianca <Link to={`/Xbianca`}>Guides</Link></div>, 
+
+  },
+  {
+    path: "/ARegis",
+    element: <div>ARegis <Link to={`/ARegis`}>Guides</Link></div>, 
 
   },
 ]);

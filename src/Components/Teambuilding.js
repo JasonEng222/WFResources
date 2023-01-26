@@ -37,14 +37,6 @@ const Teambuilding = (
         rel="noopener noreferrer">
         Aregis (Discord pictures, should create solo page & credit patch) 
     </a>
-    <a 
-        className="App-link"
-        style={{color: "rgba(151, 11, 11, 0.86"}}
-        href="https://discord.com/channels/646623094269673492/914294035965952110/1031439868817059881"
-        target="_blank"
-        rel="noopener noreferrer">
-        Multiball
-    </a>
   </div>
 </div>)
 
