@@ -1,4 +1,4 @@
-import {connect} from "react-redux"
+// import {connect} from "react-redux"
 // import { , Link } from "react-router-dom";
 import React, { Component } from "react";
 import CSBPatch from './Components/CSBPatch'
@@ -33,5 +33,5 @@ class UnconnectedGuides extends Component {
     }
 }
 
-let Guides = connect()(UnconnectedGuides)
-export default Guides
+// let Guides = connect()(UnconnectedGuides)
+export default UnconnectedGuides
