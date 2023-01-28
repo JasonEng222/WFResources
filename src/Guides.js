@@ -6,13 +6,14 @@ import CSBYozora from './Components/CSBYozora'
 import ELEGuide from './Components/ELEGuide';
 import MISCGuides from './Components/MISCGuides';
 import Teambuilding from './Components/Teambuilding';
+import { Link } from "react-router-dom";
 
 class UnconnectedGuides extends Component { 
     render = () => {
         return <div className="App">
-        <div className='.App-navbar-mini'>
+        <Link to={`/`} className='.App-navbar-mini'>
           World Flipper Resources
-        </div>
+        </Link>
         <div className=''>
           <h1 className="App-header">Solo Boss Challenge Guides</h1>
           <h4>DISCLAIMER: They are not optimized for Coop Contents. Please do not bring them to public lobbies/bells.</h4>

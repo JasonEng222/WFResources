@@ -5,7 +5,6 @@ const MISCGuides = (
     <div className="guide"></div>
     <a 
         className="App-link"
-        style={{color: "rgba(151, 11, 11, 0.86"}}
         href="https://drive.google.com/file/d/1GtTjfu93CotqMl9ScUiL2pjTfrXcyg9q/view"
         target="_blank"
         rel="noopener noreferrer">
@@ -15,7 +14,6 @@ const MISCGuides = (
     <div>Orochi Guides </div>
     <a 
         className="App-link"
-        style={{color: "rgb(7, 85, 1)"}}
         href="https://docs.google.com/document/d/e/2PACX-1vRvDBM4QJ3vpnial55P8wvC4Qs45dVTr2WExVG-EFLjnw7pULTWMROQPiojb4RV94M2H-ej_6LSxkrG/pub"
         target="_blank"
         rel="noopener noreferrer">
