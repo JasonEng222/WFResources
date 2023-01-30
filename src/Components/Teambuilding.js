@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./Components.css"
 const Teambuilding = (
 <div>
@@ -21,6 +22,7 @@ const Teambuilding = (
         rel="noopener noreferrer">
         Team Archetypes
     </a>
+    <Link to={`/XBianca`}>XBianca</Link>
     <a 
         className="App-link"
         style={{color: "rgba(151, 11, 11, 0.86"}}

@@ -19,8 +19,8 @@ const router = createBrowserRouter([
     element: <Guides></Guides>
   },
   {
-    path: "/Xbianca",
-    element: <div>Xbianca <Link to={`/Xbianca`}>Guides</Link></div>, 
+    path: "/XBianca",
+    element: <div>XBianca <Link to={`/XBianca`}>Guides</Link></div>, 
 
   },
   {
