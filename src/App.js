@@ -2,6 +2,7 @@ import './App.css';
 import React, { Component } from 'react';
 import { connect } from "react-redux"
 import './App.css';
+import XBianca from './Components/XBianca';
 import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes, Link } from "react-router-dom";
 // import { , Link } from "react-router-dom";
 import store from './Store.js'
@@ -20,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/XBianca",
-    element: <div>XBianca <Link to={`/XBianca`}>Guides</Link></div>, 
+    element: <div>{XBianca}</div>, 
 
   },
   {
