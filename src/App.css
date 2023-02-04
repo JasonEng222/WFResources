@@ -48,7 +48,12 @@ justify-content: space-evenly;
 }
 
 
-
+.center-Image {
+  display:flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .App-navbar-mini {
   display: flex;
