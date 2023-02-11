@@ -22,22 +22,33 @@ const Teambuilding = (
         rel="noopener noreferrer">
         Team Archetypes
     </a>
-    <Link to={`/XBianca`}>XBianca</Link>
+    <Link 
+        className="App-link"
+        style={{color: "rgba(151, 11, 11, 0.86"}}
+        to={`/XBianca`}>
+            XBianca
+    </Link>
     <a 
         className="App-link"
         style={{color: "rgba(151, 11, 11, 0.86"}}
         href="https://discord.com/channels/646623094269673492/650900745024962581/1009013550372618312"
         target="_blank"
         rel="noopener noreferrer">
-        XBianca (Discord pictures, should create solo page & credit patch)
+        XBianca Discord Link
     </a>
+    <Link 
+        className="App-link"
+        style={{color: "rgba(151, 11, 11, 0.86"}}
+        to={`/ARegis`}>
+        ARegis
+    </Link>
     <a 
         className="App-link"
         style={{color: "rgba(151, 11, 11, 0.86"}}
         href="https://discord.com/channels/646623094269673492/650900769708441611/1002473926384951369"
         target="_blank"
         rel="noopener noreferrer">
-        Aregis (Discord pictures, should create solo page & credit patch) 
+        Aregis Discord Link 
     </a>
   </div>
 </div>)

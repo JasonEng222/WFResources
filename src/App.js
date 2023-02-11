@@ -2,6 +2,7 @@ import './App.css';
 import React, { Component } from 'react';
 import { connect } from "react-redux"
 import './App.css';
+import ARegis from './Components/ARegis';
 import XBianca from './Components/XBianca';
 import { BrowserRouter, createBrowserRouter, Route, RouterProvider, Routes, Link } from "react-router-dom";
 // import { , Link } from "react-router-dom";
@@ -12,7 +13,7 @@ import Guides from './Guides.js';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Homepage <Link to={`/Guides`}>Guides</Link></div>, 
+    element: <div><Link to={'/'}>Homepage</Link> <Link to={`/Guides`}>Guides</Link></div>, 
 
   },
   {
@@ -26,7 +27,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/ARegis",
-    element: <div>ARegis <Link to={`/ARegis`}>Guides</Link></div>, 
+    element: <div>{ARegis}</div>, 
 
   },
 ]);
@@ -35,11 +36,6 @@ const router = createBrowserRouter([
 const App = () => {
     return (
       <RouterProvider router={router} />
-        // <BrowserRouter>
-        //   <Routes>
-        //     <Route exact={true} path="/" component={Guides}></Route>
-        //   </Routes>
-        // </BrowserRouter>
       );
     }
 

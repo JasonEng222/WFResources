@@ -7,21 +7,8 @@ import { Provider } from 'react-redux';
 import { store } from './Store.js'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-// console.log(root, "root")
-// console.log(App, "App")
-// console.log(Provider, "Provider")
+
 root.render(
-  // <Provider store={store}>
-    <App/>
-    // {/* </Provider> */}
+  <App/>
 )
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
-
-
 reportWebVitals();
