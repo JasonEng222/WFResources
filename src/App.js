@@ -13,8 +13,9 @@ import Guides from './Guides.js';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div><Link to={'/'}>Homepage</Link> <Link to={`/Guides`}>Guides</Link></div>, 
-
+    element: <div> 
+      <Link to={`/Guides`}>Guides</Link>
+      </div> 
   },
   {
     path: "/Guides",

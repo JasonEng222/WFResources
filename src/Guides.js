@@ -12,11 +12,11 @@ class UnconnectedGuides extends Component {
     render = () => {
         return <div className="App">
         <Link to={`/`} className='.App-navbar-mini'>
-          World Flipper Resources
+          Hompepage
         </Link>
         <div className=''>
           <h1 className="App-header">Solo Boss Challenge Guides</h1>
-          <h4>DISCLAIMER: They are not optimized for Coop Contents. Please do not bring them to public lobbies/bells.</h4>
+          <h4>DISCLAIMER: They are not optimized for Coop Contents. Please do not bring them to public lobbies/bells.</h4>w
           <div className="App-Links-Horizontal">
             {CSBPatch}
             {CSBYozora}
@@ -33,6 +33,5 @@ class UnconnectedGuides extends Component {
       </div>
     }
 }
-
 // let Guides = connect()(UnconnectedGuides)
 export default UnconnectedGuides
