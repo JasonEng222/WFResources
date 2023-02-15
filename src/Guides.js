@@ -16,7 +16,7 @@ class UnconnectedGuides extends Component {
         </Link>
         <div className=''>
           <h1 className="App-header">Solo Boss Challenge Guides</h1>
-          <h4>DISCLAIMER: They are not optimized for Coop Contents. Please do not bring them to public lobbies/bells.</h4>w
+          <h4>DISCLAIMER: They are not optimized for Coop Contents. Please do not bring them to public lobbies/bells.</h4>
           <div className="App-Links-Horizontal">
             {CSBPatch}
             {CSBYozora}

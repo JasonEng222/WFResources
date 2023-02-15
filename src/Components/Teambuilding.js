@@ -9,10 +9,10 @@ const Teambuilding = (
     <a 
         className="App-link"
         style={{color: "rgba(151, 11, 11, 0.86"}}
-        href="https://docs.google.com/document/d/1gYmIxasPHNfpySt_cl6UEryHsXflCVryjHjBBO1BsE0/edit"
+        href="https://docs.google.com/document/d/17SSZIjnNjZnhDyYtJzhzNlEm_BBs_X0QyKQ7_xLYgg4/edit"
         target="_blank"
         rel="noopener noreferrer">
-        Why Teams Work
+        Why Teams Work 
     </a>
     <a 
         className="App-link"
@@ -20,13 +20,13 @@ const Teambuilding = (
         href="https://docs.google.com/document/d/11kTwtdGQSncZkdT1aDUSHNGBJfG6nCgtA5i49LDBYzo/edit?usp=sharing"
         target="_blank"
         rel="noopener noreferrer">
-        Team Archetypes
-    </a>
+        Team Archetypes by Element and Mirilion
+    </a> 
     <Link 
         className="App-link"
         style={{color: "rgba(151, 11, 11, 0.86"}}
         to={`/XBianca`}>
-            XBianca
+            XBianca by Patch
     </Link>
     <a 
         className="App-link"
@@ -34,13 +34,13 @@ const Teambuilding = (
         href="https://discord.com/channels/646623094269673492/650900745024962581/1009013550372618312"
         target="_blank"
         rel="noopener noreferrer">
-        XBianca Discord Link
+        XBianca (Discord Link)
     </a>
     <Link 
         className="App-link"
         style={{color: "rgba(151, 11, 11, 0.86"}}
         to={`/ARegis`}>
-        ARegis
+        ARegis by Patch
     </Link>
     <a 
         className="App-link"
@@ -48,7 +48,7 @@ const Teambuilding = (
         href="https://discord.com/channels/646623094269673492/650900769708441611/1002473926384951369"
         target="_blank"
         rel="noopener noreferrer">
-        Aregis Discord Link 
+        Aregis (Discord Link) 
     </a>
   </div>
 </div>)
