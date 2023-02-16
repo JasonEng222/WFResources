@@ -24,7 +24,7 @@ const Teambuilding = (
     </a> 
     <Link 
         className="App-link"
-        style={{color: "rgba(151, 11, 11, 0.86"}}
+        style={{color: "rgba(151, 11, 11, 0.85"}}
         to={`/XBianca`}>
             XBianca by Patch
     </Link>
