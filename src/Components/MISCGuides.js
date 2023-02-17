@@ -1,5 +1,5 @@
 const MISCGuides = (
-<div>
+<div className="Vertical-Link">
  <h1 className="App-header">Miscellaneous</h1>
     <div className="App-verticalLinks"> 
     <div className="guide"></div>

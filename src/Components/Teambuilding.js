@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom"
 import "./Components.css"
 const Teambuilding = (
-<div>
-    <h1 className="App-header">Teambuilding </h1>
+<div className="Vertical-Link">
+    <h1 className="App-header">Teambuilding</h1>
     <div className="App-verticalLinks"> 
     <div className="guide"></div>
     <div className="X-Guide"></div>

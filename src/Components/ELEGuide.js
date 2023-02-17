@@ -1,7 +1,7 @@
 import "./Components.css"
 const ELEGuide = (
-<div>
-    <h1 className="App-header">Elemental Teams</h1>
+<div className="Vertical-Link">
+    <h1 className="App-header">Elemental</h1>
     <div className="App-verticalLinks"> 
     <div className="guide"></div>
     <div className="X-Guide"></div>
