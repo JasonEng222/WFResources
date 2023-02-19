@@ -11,7 +11,7 @@ const MISCGuides = (
         Fast Necro
     </a>
     <div>-------------------------- </div>
-    <div>Orochi Guides </div>
+    <div className="X-Guide"> Orochi Guides </div>
     <a 
         className="App-link"
         href="https://docs.google.com/document/d/e/2PACX-1vRvDBM4QJ3vpnial55P8wvC4Qs45dVTr2WExVG-EFLjnw7pULTWMROQPiojb4RV94M2H-ej_6LSxkrG/pub"
@@ -36,7 +36,7 @@ const MISCGuides = (
         Wasuku (JP)
     </a>
     <div>-------------------------- </div>
-    <div>Abyss Beast Team Comp</div>
+    <div className="X-Guide"> Abyss Beast Team Comp</div>
     <a 
         className="App-link"
         style={{color: "#rgb(244, 244, 244)"}}
