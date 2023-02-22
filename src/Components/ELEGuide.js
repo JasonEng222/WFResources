@@ -44,7 +44,7 @@ const ELEGuide = (
         href="https://docs.google.com/document/d/17cqSsghs7F3Ua9By369qFcw7ypiO8MnkyA5AxuD7RnY/edit"
         target="_blank"
         rel="noopener noreferrer">
-        Thunder (ARegis Guides)
+        ARegis comps
     </a>
     <a 
         className="App-link"

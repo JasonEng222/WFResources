@@ -13,12 +13,6 @@ import Guides from './Guides.js';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div> 
-      <Link to={`/Guides`}>Guides</Link>
-      </div> 
-  },
-  {
-    path: "/Guides",
     element: <Guides></Guides>
   },
   {

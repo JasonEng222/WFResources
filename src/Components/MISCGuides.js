@@ -3,6 +3,7 @@ const MISCGuides = (
  <h1 className="App-header">Miscellaneous</h1>
     <div className="App-verticalLinks"> 
     <div className="guide"></div>
+    <div className="X-Guide"> Necro Guide </div>
     <a 
         className="App-link"
         href="https://drive.google.com/file/d/1GtTjfu93CotqMl9ScUiL2pjTfrXcyg9q/view"

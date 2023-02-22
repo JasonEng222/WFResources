@@ -11,9 +11,6 @@ import { Link } from "react-router-dom";
 class UnconnectedGuides extends Component { 
     render = () => {
         return <div className="App">
-        <Link to={`/`} className='.App-navbar-mini'>
-          Hompepage
-        </Link>
         <div className=''>
           <h1 className="App-header">Solo Boss Challenge Guides</h1>
           <h4>DISCLAIMER: They are not optimized for Coop Contents. Please do not bring them to public lobbies/bells.</h4>
@@ -33,5 +30,5 @@ class UnconnectedGuides extends Component {
       </div>
     }
 }
-// let Guides = connect()(UnconnectedGuides)
+
 export default UnconnectedGuides
