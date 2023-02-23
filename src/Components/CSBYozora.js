@@ -1,5 +1,5 @@
 const CSBYozora = (
-<div>
+<div className="Vertical-Link">
  <h1 className="App-header">Yozora's</h1>
     <div className="App-verticalLinks"> 
     <a 

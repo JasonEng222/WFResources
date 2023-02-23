@@ -1,8 +1,7 @@
 const CSBPatch = (
-<div>
+ <div className="Vertical-Link">
  <h1 className="App-header">Patch's</h1>
     <div className="App-verticalLinks"> 
-    {/* <div className="guide"></div> */}
     <a 
         className="App-link"
         style={{color: "rgba(151, 11, 11, 0.86"}}
@@ -53,5 +52,4 @@ const CSBPatch = (
     </a>
   </div>
 </div>)
-
 export default CSBPatch
