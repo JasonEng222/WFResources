@@ -4,6 +4,17 @@ const Teambuilding = (
 <div className="Vertical-Link">
     <h1 className="App-header">Teambuilding</h1>
     <div className="App-verticalLinks"> 
+    <div className="X-Guide">Element and Mirilion's Guide</div>
+    <a 
+        className="App-link"
+        style={{color: "rgba(151, 11, 11, 0.86"}}
+        href="https://docs.google.com/document/d/11kTwtdGQSncZkdT1aDUSHNGBJfG6nCgtA5i49LDBYzo/edit?usp=sharing"
+        target="_blank"
+        rel="noopener noreferrer">
+        Team Archetypes
+    </a>
+ 
+    <div>-------------------------- </div>
     <div className="X-Guide">Patch's Guides</div>
     <a 
         className="App-link"
@@ -25,16 +36,6 @@ const Teambuilding = (
         to={`/ARegis`}>
         ARegis
     </Link>
-    <div>-------------------------- </div>
-    <div className="X-Guide">Element and Mirilion's Guide</div>
-    <a 
-        className="App-link"
-        style={{color: "rgba(151, 11, 11, 0.86"}}
-        href="https://docs.google.com/document/d/11kTwtdGQSncZkdT1aDUSHNGBJfG6nCgtA5i49LDBYzo/edit?usp=sharing"
-        target="_blank"
-        rel="noopener noreferrer">
-        Team Archetypes
-    </a> 
     <div>-------------------------- </div>
     <div className="X-Guide">Discord Links</div>
     <a 
