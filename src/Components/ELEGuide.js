@@ -62,7 +62,7 @@ const ELEGuide = (
         rel="noopener noreferrer">
         Dark
     </a>
-    <div>--------------------------- </div>
+    <div>-------------------------- </div>
     <div className="X-Guide">Snack's Guide</div>
     <a 
         className="App-link"
