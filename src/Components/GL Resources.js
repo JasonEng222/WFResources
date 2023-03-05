@@ -6,6 +6,14 @@ const GLResources = (
     <a 
         className="App-link"
         style={{color: "rgba(151, 11, 11, 0.86"}}
+        href="https://eliya-bot.herokuapp.com/gl/"
+        target="_blank"
+        rel="noopener noreferrer">
+        Eliyabot (Collection Tracker)
+    </a>
+    <a 
+        className="App-link"
+        style={{color: "rgba(151, 11, 11, 0.86"}}
         href="https://discord.com/channels/646623094269673492/882169407546204191/931915820215447572"
         target="_blank"
         rel="noopener noreferrer">

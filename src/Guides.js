@@ -35,8 +35,8 @@ class UnconnectedGuides extends Component {
       <h1 className="App-header">Miscellaneous</h1>
           <div className="App-Links-Horizontal">
           {JPResources}
-          {MISCLinks}
           {GLResources}
+          {MISCLinks}
         </div>
       </div>
     </div>

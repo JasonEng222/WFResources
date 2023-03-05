@@ -6,6 +6,14 @@ const JPResources = (
     <a 
         className="App-link"
         style={{color: "rgba(151, 11, 11, 0.86"}}
+        href="https://eliya-bot.herokuapp.com/"
+        target="_blank"
+        rel="noopener noreferrer">
+        Eliyabot (Collection Tracker)
+    </a>
+    <a 
+        className="App-link"
+        style={{color: "rgba(151, 11, 11, 0.86"}}
         href="https://docs.google.com/spreadsheets/d/1moWhlsmAFkmItRJPrhhi9qCYu8Y93sXGyS1ZBo2L38c/edit#gid=553345414"
         target="_blank"
         rel="noopener noreferrer">
